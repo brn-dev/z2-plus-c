@@ -27,6 +27,7 @@ a, .arrow { transition: color 180ms ease, background-color 180ms ease, transform
 .identity { display: inline-flex; align-items: center; gap: 12px; }
 .identity img { display: block; border-radius: 50%; }
 .identity span { font-size: 28px; font-weight: 500; letter-spacing: -.07em; }
+.wordmark-plus { padding-inline: .08em; }
 nav { display: flex; gap: 36px; font-size: 14px; }
 nav a { padding-block: 14px; }
 nav a:hover, .footer a:hover { color: var(--sage); }
