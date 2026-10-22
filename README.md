@@ -27,6 +27,7 @@ The included [workflow](.github/workflows/pages.yml) publishes only the website 
 - `index.html`: name, artist links, selected releases, contact email, and search/social metadata.
 - `styles.css`: layout, colors, typography, and responsive styles.
 - `assets/`: optimized copies of the supplied fractal background and streaming avatar, plus icons and a social preview. The original image files are untouched.
+- `assets/fractal-3840-lossless.webp`: the full 3840 × 1608 background, encoded losslessly from the supplied PNG. Its decoded pixels match the original. All screen sizes use this version to preserve fine detail when the image fills the viewport.
 - `assets/covers/`: release artworks, retrieved from the linked Spotify releases via public oEmbed metadata and stored locally as WebP images.
 
 All local asset paths are relative so the site works under the `/z2-plus-c/` GitHub Pages path. If you move to a different repository or domain, update the canonical URL, Open Graph URLs, and structured-data URLs in `index.html`.
