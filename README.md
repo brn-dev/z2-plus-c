@@ -24,9 +24,10 @@ The included [workflow](.github/workflows/pages.yml) publishes only the website 
 
 ## Edit the site
 
-- `index.html`: name, artist links, three selected releases, contact email, and search/social metadata.
+- `index.html`: name, artist links, selected releases, contact email, and search/social metadata.
 - `styles.css`: layout, colors, typography, and responsive styles.
 - `assets/`: optimized copies of the supplied fractal background and streaming avatar, plus icons and a social preview. The original image files are untouched.
+- `assets/covers/`: release artworks, retrieved from the linked Spotify releases via public oEmbed metadata and stored locally as WebP images.
 
 All local asset paths are relative so the site works under the `/z2-plus-c/` GitHub Pages path. If you move to a different repository or domain, update the canonical URL, Open Graph URLs, and structured-data URLs in `index.html`.
 
@@ -39,5 +40,9 @@ Verified against the Spotify catalog on 22 October 2026:
 - [Ponder](https://open.spotify.com/track/3eAiBPY3VpMuU9Klkc1Mof)
 - [Need for Madness](https://open.spotify.com/track/4YJPfUn0nmeZBmAkRySrpQ)
 - [Endless Waves](https://open.spotify.com/album/0X7RCTHh4fOiSO1XjiJKNJ) (listed as “(Beta) Endless Waves” on Spotify)
+- [Time](https://open.spotify.com/track/0993Kr9kOsj6Ar2EtsSqd4)
+- [C419](https://open.spotify.com/album/35CZBAhLH6C6ykwEhOwAXv) (listed as “(Beta) C419” on Spotify)
+- [Beyond the Stars](https://open.spotify.com/album/3vQQvyihBr64PmZPmrL1lt) (listed as “(Beta) Beyond the Stars” on Spotify)
+- [Invasion](https://open.spotify.com/track/0QBA24ezqwsDz0UW1pwrYJ)
 
 Contact: [z2.plus.c.music@gmail.com](mailto:z2.plus.c.music@gmail.com)
