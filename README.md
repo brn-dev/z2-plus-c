@@ -1,6 +1,6 @@
 # z²+c
 
-Minimal artist website for **z²+c**, formerly **Formic Heist**. Plain HTML and CSS, with no dependencies, build step, JavaScript, or third-party embeds.
+Minimal artist website for **z²+c**, formerly **Formic Heist**. Plain HTML, CSS, and a small script for the scrolling background effect, with no dependencies, build step, or third-party embeds.
 
 ## Preview locally
 
@@ -26,6 +26,7 @@ The included [workflow](.github/workflows/pages.yml) publishes only the website 
 
 - `index.html`: name, artist links, selected releases, contact email, and search/social metadata.
 - `styles.css`: layout, colors, typography, and responsive styles.
+- `background.js`: gently blurs the background shortly after scrolling begins, then holds a softer blur past the name section. The artwork stays sharp at the top and when reduced motion is requested; the site also works without JavaScript.
 - `assets/`: optimized copies of the supplied fractal background and streaming avatar, plus icons and a social preview. The original image files are untouched.
 - `assets/fractal-3840-lossless.webp`: the full 3840 × 1608 background, encoded losslessly from the supplied PNG. Its decoded pixels match the original. All screen sizes use this version to preserve fine detail when the image fills the viewport.
 - `assets/covers/`: release artworks, retrieved from the linked Spotify releases via public oEmbed metadata and stored locally as WebP images.
